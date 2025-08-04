@@ -5,7 +5,7 @@ from clave.clave import pedir_clave_cesar, pedir_clave_vigenere
 
 def menu():
     while True:
-        print("\nMENÚ:\n")
+        print("\n===== MENÚ =====\n")
         print("1. Cifrado")
         print("2. Descifrado")
         print("0. Salir")
