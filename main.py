@@ -21,14 +21,14 @@ def menu():
             if subopcion == "1":
                 ejemplo_cifrado_cesar()
 
-                texto = input("\nMensaje a cifrar: ")
+                texto = input("Mensaje a cifrar: ")
                 clave = pedir_clave_cesar()
                 print("\nResultado: ", cifrado_cesar(texto, clave))
 
             elif subopcion == "2":
                 ejemplo_cifrado_vigenere()
 
-                texto = input("\nMensaje a cifrar: ")
+                texto = input("Mensaje a cifrar: ")
                 clave = pedir_clave_vigenere()
                 print("\nResultado: ", cifrado_vigenere(texto, clave))
 
@@ -44,7 +44,7 @@ def menu():
             ejemplo_descifrado_cesar()
 
             if subopcion == "1":
-                texto = input("\nMensaje cifrado: ")
+                texto = input("Mensaje cifrado: ")
                 tiene_clave = input("¿Tiene la clave? (s/n): ").strip()
                 if tiene_clave == "s":
                     clave = pedir_clave_cesar()
@@ -58,7 +58,7 @@ def menu():
             elif subopcion == "2":
                 ejemplo_descifrado_vigenere()
 
-                texto = input("\nMensaje cifrado: ")
+                texto = input("Mensaje cifrado: ")
                 tiene_clave = input("¿Tiene la clave? (s/n): ").strip()
                 if tiene_clave == "s":
                     clave = pedir_clave_vigenere()
