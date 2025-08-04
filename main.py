@@ -73,7 +73,7 @@ def menu():
                 print("\nOpción inválida. Intenta de nuevo.")
 
         elif opcion == "0":
-            print("¡Gracias por escoger a Firewallín!")
+            print("\n¡Gracias por escoger a Firewallín!")
             break
 
         else:
