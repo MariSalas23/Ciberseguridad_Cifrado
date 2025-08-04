@@ -41,9 +41,9 @@ def menu():
             print("2. Descifrado Vigenère")
             subopcion = input("\nSelecciona tipo de descifrado: ")
 
-            ejemplo_descifrado_cesar()
-
             if subopcion == "1":
+                ejemplo_descifrado_cesar()
+                
                 texto = input("Mensaje cifrado: ")
                 tiene_clave = input("¿Tiene la clave? (s/n): ").strip()
                 if tiene_clave == "s":
