@@ -11,7 +11,6 @@ def menu():
         print("2. Descifrado")
         print("0. Salir")
         opcion = input("\nSelecciona una opción: ")
-        print("")
 
         if opcion == "1":
             print("\n---- CIFRADO ----")
