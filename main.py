@@ -13,7 +13,7 @@ def menu():
         opcion = input("\nSelecciona una opción: ")
 
         if opcion == "1":
-            print("\n---- CIFRADO ----")
+            print("\n----- CIFRADO -----")
             print("1. Cifrado César")
             print("2. Cifrado Vigenère")
             subopcion = input("\nSelecciona tipo de cifrado: ")
